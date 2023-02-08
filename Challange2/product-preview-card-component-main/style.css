@@ -36,6 +36,10 @@ body{
     font-weight: bolder;
     margin-top: 0;
 }
+
+.parent{
+    display: flex;
+}
 p{
     font-size: 18px;
     font-weight: 900;
@@ -51,15 +55,17 @@ h3{
     color: hsl(0, 0%, 59%);   
 }
 .price{
-    display: block;
-    font-size: 30px;
+    display: inline;
+    font-size: 45px;
     font-weight: 700;
+    margin-right: 23px;
     color:hsl(167, 40%, 24%);
 }
 .SecondPrice{
-    display: block;
+    display: inline;
     font-size: 14px;
     font-weight: 700;
+    text-decoration: line-through;
     color: gray;
 }
 .buy{
