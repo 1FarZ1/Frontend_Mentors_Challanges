@@ -1,0 +1,84 @@
+*{
+    margin-top: 10;
+    margin-bottom: 10;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);  
+
+}
+.container{
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 160px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+
+}
+.mainImg{
+    width: 50%;
+}
+.header{
+    font-size: 35px;
+    align-items: center;
+    line-height: 35px;
+    margin-bottom: 0;
+    font-weight: bolder;
+    margin-top: 0;
+}
+p{
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0px;
+    line-height: 20px;
+    color: hsl(0, 0%, 59%);
+}
+h3{
+    font-size: 16px;
+    font-weight: 700;
+   letter-spacing: 3px;
+    margin: 0px;
+    color: hsl(0, 0%, 59%);   
+}
+.price{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color:hsl(167, 40%, 24%);
+}
+.SecondPrice{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: gray;
+}
+.buy{
+    /*  give me a Dark Green background color*/
+    background-color: hsl(167, 40%, 24%);
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.buy:hover{
+    background-color: hsl(167, 40%, 14%);
+}
+.buy span{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
