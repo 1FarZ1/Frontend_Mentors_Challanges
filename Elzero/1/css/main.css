@@ -72,14 +72,55 @@ width: 10%;
 }
 
 
+.feature{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+}
+
 .feature .container{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;  
+      
 }
-.feature .container .info{
-    padding:60px;
+.feature .info{
+    padding-left:50px;
+    padding-right: 50px;
+    text-align: center;
+   
 }
+.info h3 {
+    margin: 30px 0;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width:756px){
 .container{
