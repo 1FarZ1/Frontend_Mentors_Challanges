@@ -1,0 +1,36 @@
+
+
+html{
+    font-size: 32px;
+}
+div h1 {
+
+    font-size: 2rem;
+     /*  rem 
+         em
+         %
+         vw 
+         vh : Viewk
+         ch : Character Max 
+         vmin 
+         */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+div {
+    background-color:aqua ;
+    font-size: 64px;
+    padding: 10px 0px 10px 0px;
+    min-width: 100px;
+    max-width: 1000px;
+    min-height: 100px;
+    max-height: 1000px;
+    display:block;
+    margin :100px;
+    align-items: center;
+    justify-content: center;
+    max-zoom: 199px;
+
+}
