@@ -1,0 +1,73 @@
+:root{
+    --MainColor:rgb(100, 201, 100);
+    --White:white;
+    --leftPadding:150px;
+    --rightPadding:150px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 100vh;
+    background-image: url(../images/download.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header .container{
+    padding-left: var(--leftPadding);
+    padding-right: var(--rightPadding);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;}
+
+header .container .links{
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+header .container nav{
+    flex-basis: 572px;
+}
+header .container .links a{
+    text-decoration: none;
+    color: var(--White);
+
+}
+header .container img{
+    width: 50%;
+}
+
+section .landing{
+
+    display: flex;
+    
+    
+    flex-direction: column;
+
+    
+}
+section .landing h1{
+    color: var(--White);
+    font-family: bold;
+    font-size:25px;
+    letter-spacing: 1px;
+    margin:0;
+}
+
+section .landing p{
+    line-height: 8px;
+    font-size: 10px;
+    color:var(--White);
+    margin-top: 10px;
+    font-weight: 500;
+}
